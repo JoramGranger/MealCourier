@@ -8,24 +8,24 @@
     "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "El Cabo Coffe Bar Tres De Mayo",
+      "name": " KFC | Kampala boulevard ",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant1.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
       "maxDeliveryTime": 44,
       "rating": 1.5095123177204128,
-      "address": "983 Lewis Rapids",
-      "lat": 46.87190499528364,
-      "lng": 28.54937769418778,
+      "address": "24 Kampala Road, Kampala",  
+      "lat": 0.3131889069866708,
+      "lng": 32.58096547116402,
       "createdAt": "2022-04-16T12:03:33.225Z",
       "updatedAt": "2022-04-16T12:05:12.826Z"
     },
     "User": {
       "id": "1",
-      "name": "Vadim",
-      "address": "Abc 1",
-      "lat": 46.86190499528364,
-      "lng": 28.54437769418778
+      "name": "Eric",
+      "address": "Rubaga",
+      "lat": 0.30823254616791596, 
+      "lng": 32.53434282575299
     }
   },
   {
@@ -37,24 +37,24 @@
     "orderRestaurantId": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "Jacobs - DuBuque",
+      "name": "The Food Hub",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
       "maxDeliveryTime": 44,
       "rating": 1.5095123177204128,
-      "address": "983 Lewis Rapids",
-      "lat": 46.87190499528364,
-      "lng": 28.54937769418778,
+      "address": "Kampala Road, Kampala",  
+      "lat": 0.31264944315931414,
+      "lng": 32.58528026848202,
       "createdAt": "2022-04-16T12:03:33.225Z",
       "updatedAt": "2022-04-16T12:05:12.826Z"
     },
     "User": {
       "id": "2",
-      "name": "Lukas",
-      "address": "Lithuania 1",
-      "lat": 46.86110499528364,
-      "lng": 28.54497769418778
+      "name": "Tazuba",
+      "address": "Makindye",
+      "lat": 0.28306329457121415, 
+      "lng": 32.59532440303454
     }
   },
   {
@@ -69,24 +69,24 @@
     "_deleted": null,
     "Restaurant": {
       "id": "7d7965f7-1b33-4b8c-9bac-0c22bc905030",
-      "name": "Jacobs - DuBuque",
+      "name": "Meza and Salt",
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg",
       "deliveryFee": 0.039448871531492236,
       "minDeliveryTime": 10,
       "maxDeliveryTime": 44,
       "rating": 1.5095123177204128,
-      "address": "983 Lewis Rapids",
-      "lat": 46.87190499528364,
-      "lng": 28.54937769418778,
+      "address": "Cooper Road, off John Babiha (Acacia) Ave, Kampala",
+      "lat": 0.3380012711108762,  
+      "lng": 32.58698436848189,
       "createdAt": "2022-04-16T12:03:33.225Z",
       "updatedAt": "2022-04-16T12:05:12.826Z"
     },
     "User": {
       "id": "3",
       "name": "Alex",
-      "address": "Happy land",
-      "lat": 46.86133499528364,
-      "lng": 28.54421769418778
+      "address": "Bukoto",
+      "lat": 0.3483530326478138, 
+      "lng": 32.5970923067229
     }
   }
 ]

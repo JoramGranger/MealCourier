@@ -35,7 +35,7 @@ export default StyleSheet.create({
     addressText: {
         fontSize: 20, 
         color: 'grey', 
-        fontWeight: '500', 
+        fontWeight: '500',
         letterSpacing: 1, 
         marginLeft: 15,
     },

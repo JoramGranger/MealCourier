@@ -50,7 +50,22 @@ export default StyleSheet.create({
         fontWeight: '500', 
         letterSpacing: 0.5, 
         marginBottom: 5,
-    }
+    },
+    buttonContainer: {
+        /* backgroundColor: "#3fc060",  */
+        marginTop: 'auto', 
+        marginVertical: 30, 
+        marginHorizontal: 10, 
+        borderRadius: 10,        
+    },
+    buttonText: {
+        color: 'white', 
+        paddingVertical: 15, 
+        fontSize: 25, 
+        fontWeight: '500', 
+        textAlign: 'center', 
+        letterSpacing: 0.5,
+    },
 
 
 });

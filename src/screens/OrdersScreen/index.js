@@ -1,23 +1,28 @@
-import { useRef, useState,useMemo } from "react";
-import { View, Text, FlatList, Dimensions, useWindowDimensions } from 'react-native';
+import { useRef, useState,useMemo, useEffect } from "react";
+import { View, Text, FlatList, Dimensions, useWindowDimensions, ActivityIndicator } from 'react-native';
 import BottomSheet from '@gorhom/bottom-sheet';
 import orders from '../../../assets/data/orders.json'
 import OrderItem from "../../components/OrderItem";
 import MapView, { Marker } from 'react-native-maps';
 import { Entypo } from "@expo/vector-icons";
 
+
+
+
 const OrdersScreen = () => {
 
+    
     const bottomSheetRef = useRef(null);
     const { width, height } = useWindowDimensions();
-    const snapPoints = useMemo(() => ["12%", "95%"], [])
+    const snapPoints = useMemo(() => ["12%", "95%"], []);
 
 
     return ( 
         <View style={{backgroundColor: 'lightgrey', flex: 1}}>
-            <MapView style={{height, width }} 
+            <MapView style={{height, width }}
             showsUserLocation 
-            followsUserLocation>
+            followsUserLocation
+            >
                 {orders.map((order) => (
                     <Marker 
                         key={order.id}
